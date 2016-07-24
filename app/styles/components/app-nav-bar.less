@@ -1,0 +1,32 @@
+@nav-bar-height: 50px;
+@nav-bar-width: 100%;
+@nav-link-width: 10%;
+
+.app-nav-bar {
+    height: @nav-bar-height;
+    width: @nav-bar-width;
+    background-color: rgba(10, 10, 10, 0.5);
+
+    .nav-links {
+        height: @nav-bar-height;
+        width: @nav-bar-width;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+        .nav-link {
+            line-height: @nav-bar-height;
+            width: @nav-link-width;
+            width: auto;
+            display: block;
+
+            a {
+                display: block;
+            }
+
+            a:hover {
+
+            }
+        }
+    }
+}

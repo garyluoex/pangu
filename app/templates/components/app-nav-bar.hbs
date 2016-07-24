@@ -1,0 +1,8 @@
+
+<nav class="app-nav-bar">
+    <ul class="nav-links">
+        {{#each links as |link|}}
+            <li>{{#link-to "index" class="nav-link"}}{{link.label}}{{/link-to}}</li>
+        {{/each}}
+    </ul>
+</nav>
